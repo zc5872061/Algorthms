@@ -1,6 +1,6 @@
 CXX = g++
-CXXFLAGS = -I./include  -I./
-CPPFLAGS = -Wall -ggdb -Wextra -fpermissive -Wno-sign-compare -O2
+CXXFLAGS = -I./include  -I./ -I./src
+CPPFLAGS = -Wall -ggdb -Wextra -fpermissive -Wno-sign-compare -O2 -std=c++11
 LDFLAGS = -L./lib/
 LIBS = -lgtest -pthread
 TARGET = test
